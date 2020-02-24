@@ -37,7 +37,7 @@ access_secret
 Install ffmpeg from https://www.ffmpeg.org/download.html
 
 ## How to run programs
-
+![img](https://github.com/BUEC500C1/video-LiJingyi0213/blob/master/1.png)
 
 ## Answer the questions
 1.How many API calls you can handle simultaneously and why?
