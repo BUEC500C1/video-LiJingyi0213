@@ -8,5 +8,14 @@ Download My Repositories
 ```
 run in terminal : git clone https://github.com/BUEC500C1/video-Lijingyi0213.git
 ```
+Build a key file
+```
+[auth]
+consumer_key = 
+consumer_secret = 
+access_token = 
+access_secret 
+```
+
 Install ffmpeg from https://www.ffmpeg.org/download.html
 
