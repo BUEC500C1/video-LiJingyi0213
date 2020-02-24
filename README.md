@@ -48,3 +48,6 @@ Yes
 
 3.Split the processing of an API into multiple threads?
 I splited them into 4 threads.
+
+## Demo
+![img](https://github.com/BUEC500C1/video-LiJingyi0213/blob/master/Demo.png)
