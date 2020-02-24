@@ -41,17 +41,22 @@ Install ffmpeg from https://www.ffmpeg.org/download.html
 
 ## Answer the questions
 1.How many API calls you can handle simultaneously and why?
+
 My laptop has 4 processors, so that it can handle 4 API calls simultaneously.
 
 2.For example, run different API calls at the same time?
+
 Yes
 
 3.Split the processing of an API into multiple threads?
+
 I splited them into 4 threads.
 
 ## Demo
 Image
+
 ![img](https://github.com/BUEC500C1/video-LiJingyi0213/blob/master/image.png)
 
 Video picture
+
 ![img](https://github.com/BUEC500C1/video-LiJingyi0213/blob/master/Demo.png)
