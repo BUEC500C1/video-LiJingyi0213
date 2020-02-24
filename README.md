@@ -36,14 +36,8 @@ access_secret
 
 Install ffmpeg from https://www.ffmpeg.org/download.html
 
-## steps 
-Using Twitter API Search tweets and download ten tweets
+## How to run programs
 
-Saving tweets to a txt file, then convert Tweets to Image
-
-Set image parameters, like font and background color
-
-Generate Video of Images
 
 ## Answer the questions
 1.How many API calls you can handle simultaneously and why?
