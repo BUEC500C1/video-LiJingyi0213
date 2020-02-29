@@ -4,6 +4,8 @@ import textwrap
 import requests
 import configparser 
 import tweepy as tp 
+import os
+import json
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
 
@@ -49,9 +51,11 @@ class status():
 
 def Tweets2image(user_id, profile_url, tweets):
     count = 0;
+    tweets_content =[]
     for tweet in tweets:
         try :
             txt = tweet.full_text
+            tweets_content.append(txt)
         except AttributeError:
             return
         count = count +1
@@ -79,7 +83,13 @@ def Tweets2image(user_id, profile_url, tweets):
         background.paste(img, offset)
     
         background.save(r'twitter_images/'+ user_id +'_''img'+str(count)+'.png')
-    
+    # Serializing json  
+    json_object = json.dumps(tweets_content, indent = 4) 
+      
+    # Writing to sample.json 
+    with open('json/'+user_id+'.json', "w") as outfile: 
+        outfile.write(json_object) 
+
     print ("\n successfully create"+ user_id+ str(count)+"twitter_images")
 
 def imgToVideo(username):
